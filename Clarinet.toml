@@ -1,0 +1,29 @@
+[project]
+name = 'Decentralized-Logistics-Delivery-Exception-Management'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.exception-documentation]
+path = 'contracts/exception-documentation.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.resolution-tracking]
+path = 'contracts/resolution-tracking.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.shipment-registration]
+path = 'contracts/shipment-registration.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
