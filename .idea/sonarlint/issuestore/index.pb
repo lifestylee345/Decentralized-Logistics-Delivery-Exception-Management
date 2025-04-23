@@ -5,3 +5,5 @@ V
 &contracts/exception-documentation.clar,3/f/3fd9eb6ddc00b3f0dd05ef320247437f84740a73
 R
 "contracts/resolution-tracking.clar,a/a/aa0d7e1be65d2b84d6b7b3b9d53d013a0073727f
+T
+$contracts/shipment-registration.clar,e/3/e3292106faa7f9b02c539b3aea67d1bcbf06ad9d
